@@ -127,19 +127,27 @@ html {
     vertical-align: middle;
 }
 
-.topbanner ul
-{
-list-style-type: none;
+.topbanner ul{
+    list-style-type: none;
 }
 
 .topbanner ul li { display: inline; }
 
 .site-nav {
- float:right;
- list-style-type:none;
- margin:2% 2% 2% 2%;
- padding:0;
- text-align: center;
+    max-height: 8%;
+    float:right;
+    list-style-type:none;
+    padding:2% 2% 2% 2%;
+    font-family:'Lato';
+    font-weight:300;
+    font-style:normal;
+    font-size:6px;
+    text-decoration:none;
+    color:#FFFFFF;
+    letter-spacing:0em;
+    text-align: center;
+    background-color: #000;
+    overflow: hidden
 }
 
 .site-nav a {
@@ -147,7 +155,6 @@ list-style-type: none;
  text-decoration:none;
  text-transform:uppercase;
  font-size: 32px;
-    vertical-align: middle;
 }
 
 .site-nav a:active,.site-nav a:focus,.site-nav a:hover {
@@ -228,7 +235,7 @@ list-style-type: none;
 }
 
 .banner img{
-    max-width: 2560px;
+    max-width: 100%;
 }
 
 h1 {
@@ -476,6 +483,22 @@ textarea:focus ~ .highlight {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+}
+
+@media (max-width: 767px) {
+    .info h2 {
+        margin: 1em 1.2em 0.2em 1.2em;
+    }
+    .info p {
+        margin: 1em 1.5em 0.2em 1.5em;
+    }
+
+    .info li {
+        text-align: left;
+    }
+    .help h2 {
+        margin: 1em 1.2em 0.2em 1.2em;
+    }
 }
 
 @media print,
