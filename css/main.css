@@ -499,6 +499,15 @@ textarea:focus ~ .highlight {
     .help h2 {
         margin: 1em 1.2em 0.2em 1.2em;
     }
+    
+    .topbanner ul{
+        margin: 0;
+        width: 100vw;
+    }
+
+    .topbanner ul li { 
+        margin: 0;
+    }
 }
 
 @media print,
